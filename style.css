@@ -1,0 +1,53 @@
+body{
+    width: 1000px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+input {
+    text-align: center;
+    margin: 0 auto;
+}
+.photoFrame {
+    width: 50%;
+    margin: 0 0 60px 0;
+}
+.photoFrame img{
+    width: 250px;
+    height: 160px;
+}
+
+.textBox {
+    width: 250px;
+    margin:0 auto;
+}
+
+h2{
+    margin:0;    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style: none;
+    margin:0;
+    padding-left: 0;
+}
+
+li+li {
+    margin-left: 10px;
+}
